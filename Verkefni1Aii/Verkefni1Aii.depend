@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1511875100 source:/Users/allikalli/Documents/CodeBlocks/Verkefni1Aii/Verkefni1Aii/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
