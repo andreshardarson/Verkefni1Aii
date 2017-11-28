@@ -13,6 +13,8 @@ int main()
     getline(cin, str);
     fout << str;
 
+    //Test
+
     fout.close();
 
 
