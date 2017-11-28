@@ -8,16 +8,21 @@ int main()
 {
     string str;
     ofstream fout;
+    char* ptr;
 
     fout.open("TextFromUser.txt", ios::app);
-    getline(cin, str);
-    fout << str;
-    //Her er vidbot fra mer
-    //Test
+
+    do {
+        getline(cin, str);
+    if (str != ""){
+        ptr = &str.at(0);
+    }
+    if (*ptr != '\\'){
+        fout << str << endl;
+    }
+        } while (*ptr != '\\');
 
     fout.close();
-
-
 
 
     return 0;
